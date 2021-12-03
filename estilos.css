@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: solid 1px lightgray;
+}
+
+nav {
+  height: 100px;
+}
+nav .desplegable {
+  background-image: url(fondos/espacioGris.jpg);
+}
+
+.logoSMB1 {
+  height: 80px;
+}
+
+.logoSMB2 {
+  height: 80px;
+}
+
+body {
+  background-color: white;
+}
+body .nosotros {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  border: lightgray 1px solid;
+  margin-top: 10px;
+}
+
+.carousel {
+  margin: 40px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#imagenes {
+  transition: 1s;
+  text-align: center;
+}
+
+#imagenes:hover {
+  transform: scale(1.1);
+}
+
+.imagenes {
+  height: 300px;
+}
+
+footer {
+  background-image: url(fondos/espacioGris.jpg);
+  color: #690469;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  border-top: solid 0.5px lightgrey;
+}
+footer a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */
